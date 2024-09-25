@@ -154,6 +154,46 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+
+echo "# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtualenv
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PySpark logs and checkpoint files
+*.log
+spark-warehouse/
+derby.log
+.metastore_db/
+checkpoint/
+
+# AWS credentials and keys
+*.pem
+.aws/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Miscellaneous
+*.log
+*.sqlite3
+*.pyre/
+.mypy_cache/
+.dmypy.json
+" > .gitignore
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
